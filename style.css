@@ -1,25 +1,123 @@
 nav {
     position: relative;
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     background-color: white;
     border-bottom-style: solid;
     border-bottom-color: black;
     display: inline-block;
 }
 
-.box {
+.menu {
     max-width: 960px;
     margin-left: 125px;
     }
 
-.name{
+.name {
     text-align: center;
     font-size: 40px;
-    background-color: lightslategray;
+    background-color: #b3f5cc;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     width: 400px;
     padding: 12px;
     line-height: 70px;
+}
+
+nav ul {
+    list-style-type: none;
+    font-size: 20px;
+    float: right;
+    padding-left: 360px;
+}
+
+ul {
+    display: block;
+}
+
+li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.button {
+    padding:0px 15px;
+    border-right: 1px;
+    border-right-style: solid;
+    border-right-color: darkslategrey;
+}
+
+li a {
+    text-decoration: none;
+    color: darkslategray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.content {
+    max-width: 960px;
+    margin-left:125px;
+    margin-bottom: auto;
+    position: relative;
+    min-height: 739px;
+}
+
+.about {
+    width: 650px;
+    background-color: white;
+    border-style: solid;
+    border-color:black;
+    border-width: thin;
+    margin-bottom: 15px;
+    float: left;
+    position: relative;
+}
+
+h1 {
+    color: darkslategray;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    display: block;
+}
+
+p {
+    color: darkslategray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 0px;
+    margin-right: 15px;
+    margin-left: 15px;
+    line-height: 1.5em;
+    display: block;
+}
+
+.profile {
+    padding-top: 10px;
+    margin-right: 10px;
+    float: left;
+}
+
+.footer {
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+    height: 40px;
+    background-color: white;
+    font-size: 10px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 6px;
+    border-top-style: solid;
+    border-top-color: darkslategray;
+    display: block;
+}
+
+body {
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/congruent_pentagon.png);
+    display: block;
+    margin: 10px;
 }
