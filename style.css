@@ -172,3 +172,14 @@ textarea{
     width: 40%;
     margin-bottom: 10px;
 }
+
+.portfolio{
+    width: 650px;
+    background-color: white;
+    border-style: solid;
+    border-color: #444;
+    border-width: thin;
+    margin-bottom: 15px;
+    float: left;
+    position: relative;
+}
