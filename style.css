@@ -173,6 +173,7 @@ textarea{
     margin-bottom: 10px;
 }
 
+
 .portfolio{
     width: 650px;
     background-color: white;
@@ -182,4 +183,14 @@ textarea{
     margin-bottom: 15px;
     float: left;
     position: relative;
+}
+
+figure {
+    position: realtive;
+    margin: 0px;
+    display: inline;
+}
+
+.portfolio figure img {
+    margin: 15px;
 }
