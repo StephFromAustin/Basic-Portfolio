@@ -62,7 +62,7 @@ li a {
 
 .content {
     max-width: 960px;
-    margin-left:400px;
+    margin-left:280px;
     margin-bottom: auto;
     position: relative;
     min-height: 739px;
@@ -129,3 +129,56 @@ body {
     margin: 10px;
 }
 
+.contact {
+    width: 650px;
+    background-color: white;
+    border-style: solid;
+    border-color: #444;
+    border-width: thin;
+    margin-bottom: 15px;
+    float: left;
+    position: relative;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #444;
+    border: solid;
+    border-width: 1px;
+    border-color: #444;
+    padding: 10px;
+    width: 90%;
+}
+
+textarea{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #444;
+    border: solid;
+    border-width: 1px;
+    border-color: #444;
+    padding: 10px;
+    width: 90%;
+}
+
+.submit {
+    font-size: 15px;
+    color: #444;
+    border: solid;
+    border-width: 1px;
+    border-color: #444;
+    padding: 10px;
+    width: 90%;
+}
+
+.submit:hover{
+    background-color: black;
+    border-color: #b3f5cc;
+    color: ;
+    border-width: 20px;
+}
