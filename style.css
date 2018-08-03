@@ -35,11 +35,11 @@ nav ul {
 }
 
 ul {
-    display: block;
+    display: inline-block;
 }
 
 li {
-    display: inline;
+    display: inline-block;
     margin-right: 15px;
 }
 
@@ -48,6 +48,13 @@ li {
     border-right: 1px;
     border-right-style: solid;
     border-right-color: darkslategrey;
+}
+.button:hover{
+    background-color: black;
+    border-color: #b3f5cc;
+    color: white;
+    border-width: 20px;
+
 }
 
 li a {
